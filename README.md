@@ -1,11 +1,7 @@
-# 注意点
- *  clone本仓库至本地
- *  npm install
- *  修改package.json中
-    *  name - 修改为自己需要发版的npm包名字（名字不可与npm已有包名重复、名字正常一点不然发不了）
-    *  main - 根据name自行修改
-    *  author - 在npm注册的账号
- * app.vue中的组件即为需要发版的组件
- * index.js中导出组件
- * 发版一定要切换npm源，不要使用淘宝源，不然会发布失败
- * npm发版步骤请查看[我的简书](https://www.jianshu.com/p/999e3f85b37f)
+# 为什么
+由于element-ui本身不支持树形下拉的选择，因此本人利用el-select、el-tree加以结合，得到此项目，即树形下拉选。
+
+# api
+*  options：数据源，格式为：[{value: '', label: '', children: ''}]
+*  isMultiple: 是否支持多选
+*  props: 树形数据格式化，参照el-select

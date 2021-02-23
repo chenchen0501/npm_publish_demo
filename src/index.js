@@ -1,2 +1,2 @@
-import Msg from './app.vue'
-export default Msg;
+import App from './app.vue'
+export default App;

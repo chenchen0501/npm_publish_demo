@@ -1,8 +1,8 @@
 {
-	"name": "cc_test_npm_hello",
-	"version": "1.0.0",
+	"name": "el-vue-tree-select",
+	"version": "1.0.1",
 	"description": "",
-	"main": "dist/helloMsg.min.js",
+	"main": "dist/elVueTreeSelect.min.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "webpack-dev-server --hot --inline",
